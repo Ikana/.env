@@ -1,4 +1,6 @@
-export EDITOR=emacs
+export GIT_EDITOR=emacs
+export GIT_NAME="Rodrigo Quezada"
+export GIT_AUTHOR_EMAIL="roderik.ikana@gmail.com"
 
 source /usr/local/share/antigen/antigen.zsh
 
