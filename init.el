@@ -60,3 +60,8 @@
 ;      (run-hook-with-args 'window-scroll-functions)
       (scroll-up-line))
     (setq alternating-scroll-up-next (not alternating-scroll-up-next)))
+
+(setq backup-directory-alist
+  `((".*" . ,temporary-file-directory)))
+(setq auto-save-file-name-transforms
+  `((".*" ,temporary-file-directory t)))
