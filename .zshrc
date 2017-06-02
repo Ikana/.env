@@ -15,6 +15,6 @@ antigen bundle command-not-found
 antigen bundle zsh-users/zsh-syntax-highlighting
 antigen bundle tarruda/zsh-autosuggestions
 
-antigen theme avit
+antigen theme refined
 
 antigen apply
