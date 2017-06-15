@@ -18,3 +18,5 @@ antigen bundle tarruda/zsh-autosuggestions
 antigen theme refined
 
 antigen apply
+
+fortune | cowsay | lolcat
