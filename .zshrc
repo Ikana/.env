@@ -20,3 +20,7 @@ antigen theme refined
 antigen apply
 
 fortune | cowsay | lolcat
+
+if [ -f ~/.bash_aliases ]; then
+    . ~/.bash_aliases
+fi
