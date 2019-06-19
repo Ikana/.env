@@ -1,6 +1,4 @@
-export GIT_EDITOR=emacs
-export GIT_NAME="Rodrigo Quezada"
-export GIT_AUTHOR_EMAIL="roderik.ikana@gmail.com"
+
 
 source /usr/local/share/antigen/antigen.zsh
 
@@ -13,14 +11,18 @@ antigen bundle lein
 antigen bundle command-not-found
 
 antigen bundle zsh-users/zsh-syntax-highlighting
-antigen bundle tarruda/zsh-autosuggestions
+antigen bundle zsh-users/zsh-autosuggestions
 
-antigen theme refined
+antigen bundle mafredri/zsh-async
+antigen bundle sindresorhus/pure
 
 antigen apply
 
-fortune | cowsay | lolcat
 
-if [ -f ~/.bash_aliases ]; then
-    . ~/.bash_aliases
-fi
+eval "$(direnv hook zsh)"
+
+
+export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=5'
+
+
+export PATH="/usr/local/sbin:$PATH"
