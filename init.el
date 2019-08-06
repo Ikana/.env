@@ -80,8 +80,6 @@
 
 (setq nxml-slash-auto-complete-flag t)
 
-(projectile-global-mode)
-
 (require 'powerline)
 (powerline-default-theme)
 
