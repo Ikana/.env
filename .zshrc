@@ -26,3 +26,13 @@ export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=5'
 
 
 export PATH="/usr/local/sbin:$PATH"
+
+if [ "$TMUX" = "" ]; then tmux; fi
+
+alias ls='exa'
+alias la='exa --all'
+alias ll='exa -l'
+alias lll='exa -l | less'
+alias lla='exa -la'
+alias llt='exa -T'
+alias llfu='exa -bghHliS --git'
