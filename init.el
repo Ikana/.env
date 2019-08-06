@@ -79,10 +79,3 @@
       `((".*" ,temporary-file-directory t)))
 
 (setq nxml-slash-auto-complete-flag t)
-
-(require 'powerline)
-(powerline-default-theme)
-
-(require 'multiple-cursors)
-
-(global-set-key (kbd "C-S-c C-S-c") 'mc/edit-lines)
