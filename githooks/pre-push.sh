@@ -2,7 +2,6 @@
 
 # @link https://gist.github.com/mattscilipoti/8424018
 #
-
 # Called by "git push" after it has checked the remote status,
 # but before anything has been pushed.
 #
