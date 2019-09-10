@@ -80,11 +80,4 @@
 
 (setq nxml-slash-auto-complete-flag t)
 
-(projectile-global-mode)
 
-(require 'powerline)
-(powerline-default-theme)
-
-(require 'multiple-cursors)
-
-(global-set-key (kbd "C-S-c C-S-c") 'mc/edit-lines)

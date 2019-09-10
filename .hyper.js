@@ -9,10 +9,10 @@ module.exports = {
     updateChannel: 'stable',
 
     // default font size in pixels for all tabs
-    fontSize: 14,
+    fontSize: 18,
 
     // font family with optional fallbacks
-    fontFamily: 'Menlo, "DejaVu Sans Mono", Consolas, "Lucida Console", monospace',
+    fontFamily: '"Source Code Pro", Menlo, "DejaVu Sans Mono", Consolas, "Lucida Console", monospace',
 
     // default font weight: 'normal' or 'bold'
     fontWeight: 'normal',
@@ -124,7 +124,7 @@ module.exports = {
 
     // for advanced config flags please refer to https://hyper.is/#cfg
     hyperTransparentDynamic: {
-      alpha: 0.1 // default 50%
+      alpha: 0.3 // default 50%
     }
   },
 
@@ -144,12 +144,15 @@ module.exports = {
     // 'hyper-material-theme'
     'hyper-snazzy',
     'hyper-transparent-dynamic',
+    // 'hyperpower',
   ],
 
   // in development, you can create a directory under
   // `~/.hyper_plugins/local/` and include it here
   // to load it and avoid it being `npm install`ed
-  localPlugins: [],
+  localPlugins: [
+    // 'hyperpower'
+  ],
 
 
 
