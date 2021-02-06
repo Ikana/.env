@@ -15,9 +15,11 @@ antigen bundle zsh-users/zsh-syntax-highlighting
 antigen bundle zsh-users/zsh-autosuggestions
 
 antigen bundle mafredri/zsh-async
-antigen bundle sindresorhus/pure
 
 antigen apply
+
+autoload -U promptinit; promptinit
+prompt pure
 
 
 eval "$(direnv hook zsh)"
