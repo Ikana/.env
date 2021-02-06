@@ -53,6 +53,4 @@ if [ -f '/Users/rodrigo.quezada/google-cloud-sdk/completion.zsh.inc' ]; then . '
 
 source ~/.cargo/env
 
-source ~/.blink-profile
-
 export PATH="$(pyenv root)/libexec/pyenv:$PATH"
