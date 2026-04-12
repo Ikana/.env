@@ -9,7 +9,7 @@ module.exports = {
     updateChannel: 'stable',
 
     // default font size in pixels for all tabs
-    fontSize: 18,
+    fontSize: 24,
 
     // font family with optional fallbacks
     fontFamily: '"Source Code Pro", Menlo, "DejaVu Sans Mono", Consolas, "Lucida Console", monospace',
@@ -124,7 +124,7 @@ module.exports = {
 
     // for advanced config flags please refer to https://hyper.is/#cfg
     hyperTransparentDynamic: {
-      alpha: 0.3 // default 50%
+      alpha: 0.5 // default 50%
     }
   },
 
